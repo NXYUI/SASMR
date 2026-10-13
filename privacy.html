@@ -34,7 +34,7 @@
           <tr>
             <td>Drive 앱 전용 폴더<br><code>drive.appdata</code></td>
             <td>앱이 만든 데이터만</td>
-            <td>앱 설정, 번역 수정, 이어듣기 위치를 사용자 본인의 Drive에 저장해 기기 간에 동기화합니다.</td>
+            <td>별칭과 이어듣기 위치를 사용자 본인의 Drive에 저장해 백업하고 기기 간에 동기화합니다.</td>
           </tr>
           <tr>
             <td>Google 계정 기본 정보</td>
@@ -58,7 +58,6 @@
       <p>앱은 사용자가 쓰는 기능을 제공하는 데 필요한 경우에만 아래처럼 정보를 외부로 보냅니다.</p>
       <ul>
         <li><strong>작품 정보 조회</strong>: 폴더 이름에서 찾은 작품 번호(예: RJ01234567)로 DLsite 웹사이트에서 공개된 작품 정보를 요청합니다. 작품 번호 외의 정보는 보내지 않습니다.</li>
-        <li><strong>번역</strong>: 사용자가 번역 기능을 쓰면 작품 제목, 트랙 이름 등 번역할 텍스트를 사용자가 설정한 번역 서비스(예: DeepL)로 보냅니다. 해당 서비스의 개인정보처리방침이 적용됩니다.</li>
       </ul>
       <p>앱은 광고, 분석 도구, 추적 기술을 쓰지 않으며 어떤 데이터도 판매하거나 제3자와 공유하지 않습니다.</p>
     </section>
@@ -91,7 +90,7 @@
 
     <section lang="en" class="en">
       <h2>Summary (English)</h2>
-      <p>StreamingASMR has no server. It runs entirely on the user's device and the developer never receives user data. It uses <code>drive.readonly</code> only to list the user's chosen library folder and stream its audio files, and <code>drive.appdata</code> only to sync the app's own settings, translation edits and playback positions in the user's Drive. Work IDs (e.g. RJ01234567) taken from folder names are sent to DLsite to fetch public work information, and text the user chooses to translate is sent to the translation service the user configures. No data is sold, shared, or used for advertising or analytics.</p>
+      <p>StreamingASMR has no server. It runs entirely on the user's device and the developer never receives user data. It uses <code>drive.readonly</code> only to list the user's chosen library folder and stream its audio files, and <code>drive.appdata</code> only to back up and sync the user's own aliases (names the user gives to works and tracks) and playback positions in the user's Drive. Work IDs (e.g. RJ01234567) taken from folder names are sent to DLsite to fetch public work information,. No data is sold, shared, or used for advertising or analytics.</p>
     </section>
   </main>
 
